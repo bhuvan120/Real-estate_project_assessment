@@ -64,19 +64,19 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link to="/" className="hover:text-white transition-colors">Browse Properties</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Browse Properties</Link>
               </li>
               <li>
-                <Link to="/favorites" className="hover:text-white transition-colors">Your Favorites</Link>
+                <Link to="/favorites" className="text-primary-400 hover:text-white transition-colors">Your Favorites</Link>
               </li>
               <li>
-                <Link to="/recently-viewed" className="hover:text-white transition-colors">Recently Viewed</Link>
+                <Link to="/recently-viewed" className="text-primary-400 hover:text-white transition-colors">Recently Viewed</Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-white transition-colors">About Company</Link>
+                <Link to="/about" className="text-primary-400 hover:text-white transition-colors">About Company</Link>
               </li>
               <li>
-                <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy & Terms</Link>
+                <Link to="/privacy" className="text-primary-400 hover:text-white transition-colors">Privacy Policy & Terms</Link>
               </li>
             </ul>
           </div>
@@ -88,19 +88,19 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link to="/" className="hover:text-white transition-colors">Luxury Apartments</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Luxury Apartments</Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-white transition-colors">Premium Villas</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Premium Villas</Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-white transition-colors">Independent Houses</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors" >Independent Houses</Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-white transition-colors">Commercial Offices</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Commercial Offices</Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-white transition-colors font-medium text-brand-400">List Your Property</Link>
+                <Link to="/" className="text-primary-400 hover:text-white transition-colors" >List Your Property</Link>
               </li>
             </ul>
           </div>
