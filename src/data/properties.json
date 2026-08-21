@@ -1,0 +1,724 @@
+[
+  {
+    "id": 1,
+    "name": "Prestige Highlake Heights",
+    "type": "Apartment",
+    "price": 8500000,
+    "priceDisplay": "₹85 Lakhs",
+    "city": "Hyderabad",
+    "location": "Gachibowli",
+    "address": "Financial District Road, Gachibowli, Hyderabad, Telangana 500032",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 1850,
+    "description": "Experience luxury living in this spacious 3 BHK apartment located in the heart of Gachibowli's Financial District. Boasting premium finishes, a wrap-around balcony with panoramic city views, and close proximity to top IT parks, it is perfect for modern professionals and families.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Power Backup",
+      "Security",
+      "Club House",
+      "Elevator"
+    ],
+    "listedDate": "2026-08-10",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Sobha Royal Pavilion",
+    "type": "Apartment",
+    "price": 14500000,
+    "priceDisplay": "₹1.45 Cr",
+    "city": "Bangalore",
+    "location": "Sarjapur Road",
+    "address": "Off Sarjapur Road, Hadosiddapura, Bangalore, Karnataka 560035",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2200,
+    "description": "Sobha Royal Pavilion is an architectural masterpiece inspired by Rajasthan's royal heritage. This premium 3 BHK apartment offers fine craftsmanship, extensive landscaped gardens, a massive clubhouse, and unmatched connectivity to Sarjapur and Outer Ring Road tech parks.",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Jogging Track"
+    ],
+    "listedDate": "2026-08-15",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Lodha World One Penthouse",
+    "type": "Apartment",
+    "price": 75000000,
+    "priceDisplay": "₹7.50 Cr",
+    "city": "Mumbai",
+    "location": "Lower Parel",
+    "address": "Lodha Place, Senapati Bapat Marg, Lower Parel, Mumbai, Maharashtra 400013",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "area": 4800,
+    "description": "Inhabit the skies in this ultra-exclusive 4 BHK penthouse inside one of the tallest residential towers in India. Enjoy breathtaking views of the Arabian Sea, private elevator access, a personal plunge pool, and bespoke interior styling customized by world-renowned designers.",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Private Pool",
+      "Concierge Service"
+    ],
+    "listedDate": "2026-08-01",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Godrej Greens Independent Villa",
+    "type": "Villa",
+    "price": 28000000,
+    "priceDisplay": "₹2.80 Cr",
+    "city": "Pune",
+    "location": "Undri",
+    "address": "Near Undri Chowk, Undri, Pune, Maharashtra 411060",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 3500,
+    "description": "Nestled in Pune's lush green southern corridor, this spectacular 4 BHK independent villa features private front and back gardens, a double-height ceiling in the living area, private terrace space, and high-security gated community perks.",
+    "images": [
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Private Garden",
+      "Power Backup"
+    ],
+    "listedDate": "2026-08-18",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "DLF The Aralias Premium Villa",
+    "type": "Villa",
+    "price": 95000000,
+    "priceDisplay": "₹9.50 Cr",
+    "city": "Gurgaon",
+    "location": "Golf Course Road",
+    "address": "DLF Phase 5, Sector 42, Golf Course Road, Gurgaon, Haryana 122002",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area": 6200,
+    "description": "An unmatched statement of wealth and privacy. DLF The Aralias overlooks the magnificent DLF Golf Course. This luxurious 5 BHK villa boasts grand structural spacing, a private pool, custom Italian marble flooring, and smart home automation systems.",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Private Pool",
+      "Golf Course Access"
+    ],
+    "listedDate": "2026-08-12",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Tata Eureka Park 2 BHK",
+    "type": "Apartment",
+    "price": 6200000,
+    "priceDisplay": "₹62 Lakhs",
+    "city": "Noida",
+    "location": "Sector 150",
+    "address": "Sector 150, Noida-Greater Noida Expressway, Noida, Uttar Pradesh 201310",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1100,
+    "description": "A smart home ready 2 BHK apartment in Noida's cleanest, greenest sector. Comes with App-controlled lighting and locks, high-speed fibre internet connectivity, an organic farming area, and superior sporting zones for health-conscious occupants.",
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Smart Home Tech"
+    ],
+    "listedDate": "2026-08-20",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Modern Office Space in OMR",
+    "type": "Commercial",
+    "price": 32000000,
+    "priceDisplay": "₹3.20 Cr",
+    "city": "Chennai",
+    "location": "Perungudi",
+    "address": "Rajiv Gandhi Salai (OMR), Perungudi, Chennai, Tamil Nadu 600096",
+    "bedrooms": 0,
+    "bathrooms": 4,
+    "area": 3100,
+    "description": "Fully furnished, move-in ready commercial office space situated on OMR IT Corridor. It features 32 workstations, 3 meeting rooms, a pantry, centralized AC, double-height reception lobby, and dedicated reserved basement parking spaces.",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Power Backup",
+      "Security",
+      "Parking",
+      "Elevator",
+      "Conference Rooms",
+      "Centralized AC"
+    ],
+    "listedDate": "2026-07-28",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Heritage Independent House",
+    "type": "Independent House",
+    "price": 17500000,
+    "priceDisplay": "₹1.75 Cr",
+    "city": "Delhi",
+    "location": "Vasant Vihar",
+    "address": "Block B, Vasant Vihar, New Delhi, Delhi 110057",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2400,
+    "description": "A charming, double-story 3 BHK independent house located in South Delhi's premium green neighborhood. Built with a classic Delhi red-brick facade, it features high ceilings, a sprawling sun-drenched front courtyard, and servant quarters.",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parking",
+      "Private Garden",
+      "Water Storage",
+      "Power Backup",
+      "Security"
+    ],
+    "listedDate": "2026-08-05",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Gachibowli Premium 2 BHK",
+    "type": "Apartment",
+    "price": 4800000,
+    "priceDisplay": "₹48 Lakhs",
+    "city": "Hyderabad",
+    "location": "Gachibowli",
+    "address": "Telecom Nagar, Gachibowli, Hyderabad, Telangana 500032",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1250,
+    "description": "Excellently maintained, high-rental yield 2 BHK apartment. Located within walking distance of Gachibowli DLF cybercity. Equipped with premium modular wardrobes, high-end kitchen appliances, and round-the-clock water and power supplies.",
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking",
+      "Security",
+      "Elevator",
+      "Power Backup"
+    ],
+    "listedDate": "2026-08-11",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Luxury Villa at Adyar",
+    "type": "Villa",
+    "price": 42000000,
+    "priceDisplay": "₹4.20 Cr",
+    "city": "Chennai",
+    "location": "Adyar",
+    "address": "Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 4200,
+    "description": "Constructed with vaastu compliance, this elegant 4 BHK villa sits in Chennai's upscale coastal suburb. Built across two levels, the home features private landscaped lawns, a spacious terrace lounge, and an architectural design emphasizing natural cross-ventilation.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Private Garden",
+      "Vaastu Compliant"
+    ],
+    "listedDate": "2026-08-16",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "name": "Banjara Hills Royal Mansion",
+    "type": "Independent House",
+    "price": 88000000,
+    "priceDisplay": "₹8.80 Cr",
+    "city": "Hyderabad",
+    "location": "Banjara Hills",
+    "address": "Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area": 5500,
+    "description": "An imposing 5 BHK independent residence situated in Hyderabad's historical elite community block. Offers majestic stone column porch, teakwood doors throughout, custom modular storage, and a separate service wing.",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parking",
+      "Private Garden",
+      "Power Backup",
+      "Security",
+      "Water Purifier",
+      "Servant Quarter"
+    ],
+    "listedDate": "2026-08-04",
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Phoenix Marketcity Commercial Showroom",
+    "type": "Commercial",
+    "price": 120000000,
+    "priceDisplay": "₹12.00 Cr",
+    "city": "Bangalore",
+    "location": "Whitefield",
+    "address": "Mahadevapura, Outer Ring Road, Whitefield, Bangalore, Karnataka 560048",
+    "bedrooms": 0,
+    "bathrooms": 2,
+    "area": 4500,
+    "description": "Premium double-height retail/showroom space with high visibility glass facade. Ideally positioned on the ground floor with high footfall. Highly recommended for banks, high-end fashion outlets, or automobile studios.",
+    "images": [
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Security",
+      "Parking",
+      "Power Backup",
+      "Centralized AC",
+      "Fire Sprinklers",
+      "Escalator Access"
+    ],
+    "listedDate": "2026-08-02",
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "Koregaon Park Penthouse Suite",
+    "type": "Apartment",
+    "price": 31000000,
+    "priceDisplay": "₹3.10 Cr",
+    "city": "Pune",
+    "location": "Koregaon Park",
+    "address": "Lane 5, Koregaon Park, Pune, Maharashtra 411001",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area": 2900,
+    "description": "Indulge in Pune's premier lifestyle location. This gorgeous 3 BHK duplex penthouse features a massive private rooftop terrace with wooden deck, ambient lighting, high-end modular designer kitchen, and a private bar lounge setup.",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Private Terrace",
+      "Power Backup",
+      "Bar Counter"
+    ],
+    "listedDate": "2026-08-14",
+    "featured": true
+  },
+  {
+    "id": 14,
+    "name": "Shantivan Independent Bungalow",
+    "type": "Independent House",
+    "price": 24000000,
+    "priceDisplay": "₹2.40 Cr",
+    "city": "Pune",
+    "location": "Kothrud",
+    "address": "Shastri Nagar, Kothrud, Pune, Maharashtra 411038",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 3200,
+    "description": "Generously designed 4 BHK independent bungalow in the mature tree-lined pathways of Kothrud. The property offers multi-car parking space, high security, rainwater harvesting setups, and a clean peaceful neighborhood.",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parking",
+      "Water Storage",
+      "Power Backup",
+      "Private Garden",
+      "Rainwater Harvesting"
+    ],
+    "listedDate": "2026-08-09",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Hiranandani Gardens 2 BHK",
+    "type": "Apartment",
+    "price": 27500000,
+    "priceDisplay": "₹2.75 Cr",
+    "city": "Mumbai",
+    "location": "Powai",
+    "address": "Hiranandani Gardens, Powai, Mumbai, Maharashtra 400076",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1050,
+    "description": "Luxuriate in the signature Neoclassical architecture of Hiranandani Gardens. This high-floor 2 BHK apartment features premium vitrified flooring, high-end French windows, split AC fittings, and access to world-class township amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Tennis Court"
+    ],
+    "listedDate": "2026-08-19",
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Prestige Lakeside Habitat Villa",
+    "type": "Villa",
+    "price": 49000000,
+    "priceDisplay": "₹4.90 Cr",
+    "city": "Bangalore",
+    "location": "Varthur",
+    "address": "Whitefield-Sarjapur Road, Varthur, Bangalore, Karnataka 560087",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 4000,
+    "description": "Prestige Lakeside Habitat is an expansive Disney-themed luxury township. This standalone 4 BHK villa offers an incredibly peaceful environment, views of Varthur Lake, private double-car garages, and an private lawn.",
+    "images": [
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Private Garden",
+      "Golf Course Access"
+    ],
+    "listedDate": "2026-08-07",
+    "featured": true
+  },
+  {
+    "id": 17,
+    "name": "Indiranagar Independent House",
+    "type": "Independent House",
+    "price": 38000000,
+    "priceDisplay": "₹3.80 Cr",
+    "city": "Bangalore",
+    "location": "Indiranagar",
+    "address": "12th Main Road, Indiranagar, Bangalore, Karnataka 560038",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 3600,
+    "description": "Rarely available 4 BHK independent building in Bangalore's premier shopping and dining hub. Perfect for conversion to a commercial store, boutique clinic, or a high-profile multi-generational family mansion.",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parking",
+      "Power Backup",
+      "Water Tank",
+      "Security",
+      "Terrace Lounge"
+    ],
+    "listedDate": "2026-08-08",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "Corporate Office in Cyber City",
+    "type": "Commercial",
+    "price": 85000000,
+    "priceDisplay": "₹8.50 Cr",
+    "city": "Gurgaon",
+    "location": "DLF Cyber City Phase III",
+    "address": "DLF Cyber City, Sector 24, Gurgaon, Haryana 122002",
+    "bedrooms": 0,
+    "bathrooms": 6,
+    "area": 6800,
+    "description": "High-grade premium office unit in Cyber City. Features custom HVAC setups, executive conference suites, fiber optical backbone connectivity, 100% power backup systems, and professional facility management teams.",
+    "images": [
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Power Backup",
+      "Security",
+      "Parking",
+      "Elevator",
+      "Centralized AC",
+      "Fire Safety Systems"
+    ],
+    "listedDate": "2026-07-25",
+    "featured": true
+  },
+  {
+    "id": 19,
+    "name": "DLF Phase 2 Independent Villa",
+    "type": "Villa",
+    "price": 68000000,
+    "priceDisplay": "₹6.80 Cr",
+    "city": "Gurgaon",
+    "location": "DLF Phase 2",
+    "address": "Jacaranda Marg, Sector 25, Gurgaon, Haryana 122002",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "area": 4800,
+    "description": "Designed with a modern minimalist layout, this luxury 5 BHK villa features open-concept living spaces, premium Spanish tile work, high glass walls for ample lighting, and a fully finished basement for entertainment.",
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Entertainment Room",
+      "Private Garden"
+    ],
+    "listedDate": "2026-08-13",
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Godrej Meridien Smart 3 BHK",
+    "type": "Apartment",
+    "price": 18000000,
+    "priceDisplay": "₹1.80 Cr",
+    "city": "Gurgaon",
+    "location": "Sector 106",
+    "address": "Dwarka Expressway, Sector 106, Gurgaon, Haryana 122006",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2000,
+    "description": "Experience fine residency in Sector 106 at Godrej Meridien. Features a state-of-the-art 3 BHK structure, premium modular fittings, wine testing arenas, private concierge gates, and outstanding connectivity to Delhi.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Concierge Service",
+      "Club House"
+    ],
+    "listedDate": "2026-08-17",
+    "featured": false
+  },
+  {
+    "id": 21,
+    "name": "Bungalow at South Extension",
+    "type": "Independent House",
+    "price": 72000000,
+    "priceDisplay": "₹7.20 Cr",
+    "city": "Delhi",
+    "location": "South Extension II",
+    "address": "M-Block, South Extension Part 2, New Delhi, Delhi 110049",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 4100,
+    "description": "A prestigious 4 BHK classic bungalow with standalone status. Offers spacious marble flooring, independent terrace spaces with panoramic green views, high ceilings, automated gates, and top-tier security standards.",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parking",
+      "Power Backup",
+      "Security",
+      "Water Purifier",
+      "Private Garden"
+    ],
+    "listedDate": "2026-08-06",
+    "featured": true
+  },
+  {
+    "id": 22,
+    "name": "Retail Space near Connaught Place",
+    "type": "Commercial",
+    "price": 140000000,
+    "priceDisplay": "₹14.00 Cr",
+    "city": "Delhi",
+    "location": "Connaught Place",
+    "address": "Radial Road, Connaught Place, New Delhi, Delhi 110001",
+    "bedrooms": 0,
+    "bathrooms": 2,
+    "area": 3800,
+    "description": "Ultra-prime commercial shop front in Delhi's historic central business district. Offers massive floor layout with high ceilings, large front glazing, high tourist and office pedestrian count, and convenient metro links.",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Security",
+      "Power Backup",
+      "Centralized AC",
+      "Fire Alarms",
+      "High Visibility"
+    ],
+    "listedDate": "2026-07-20",
+    "featured": true
+  },
+  {
+    "id": 23,
+    "name": "DLF Kings Court GK-2 Apartment",
+    "type": "Apartment",
+    "price": 45000000,
+    "priceDisplay": "₹4.50 Cr",
+    "city": "Delhi",
+    "location": "Greater Kailash II",
+    "address": "W-Block, GK 2, New Delhi, Delhi 110048",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 2500,
+    "description": "DLF Kings Court is Delhi's premium gated community. This highly secure 3 BHK apartment overlooks the Jahanpanah Forest. It offers a fully equipped club house, multi-tier security, and unmatched luxury living inside the capital city.",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Power Backup"
+    ],
+    "listedDate": "2026-08-16",
+    "featured": false
+  },
+  {
+    "id": 24,
+    "name": "Luxury Apartment in Anna Nagar",
+    "type": "Apartment",
+    "price": 19500000,
+    "priceDisplay": "₹1.95 Cr",
+    "city": "Chennai",
+    "location": "Anna Nagar",
+    "address": "Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 1900,
+    "description": "An exquisite 3 BHK apartment situated in Chennai's highly coveted residential grid of Anna Nagar. Features high quality teakwood frames, Italian marble layout, standard vaastu design, and multi-tier gate security structures.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Gym",
+      "Parking",
+      "Security",
+      "Club House",
+      "Elevator",
+      "Vaastu Compliant"
+    ],
+    "listedDate": "2026-08-11",
+    "featured": false
+  },
+  {
+    "id": 25,
+    "name": "Prime Commercial Space on FC Road",
+    "type": "Commercial",
+    "price": 55000000,
+    "priceDisplay": "₹5.50 Cr",
+    "city": "Pune",
+    "location": "Shivajinagar",
+    "address": "Fergusson College Road, Shivajinagar, Pune, Maharashtra 411005",
+    "bedrooms": 0,
+    "bathrooms": 3,
+    "area": 2500,
+    "description": "Superb commercial business front on FC Road's highly populated commercial strip. Ideal for premium brands, cafes, or corporate banks seeking top-notch customer access and visibility.",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Power Backup",
+      "Security",
+      "Parking",
+      "Centralized AC",
+      "High Visibility"
+    ],
+    "listedDate": "2026-07-22",
+    "featured": false
+  }
+]
