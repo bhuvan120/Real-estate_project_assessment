@@ -25,9 +25,9 @@ export const Hero = ({ searchValue, onSearchChange }) => {
       <div className="relative z-10 w-full max-w-3xl space-y-6 md:space-y-8">
         
         {/* Callout Tag */}
-        <div className="inline-flex items-center gap-1.5 rounded-full bg-brand-500/10 px-4 py-1.5 border border-brand-500/25 text-xs font-semibold text-brand-300 tracking-wider uppercase animate-fadeIn">
+        {/* <div className="inline-flex items-center gap-1.5 rounded-full bg-brand-500/10 px-4 py-1.5 border border-brand-500/25 text-xs font-semibold text-brand-300 tracking-wider uppercase animate-fadeIn">
           🏠 Discover Your Next Chapter
-        </div>
+        </div> */}
 
         {/* Title */}
         <div className="space-y-3">

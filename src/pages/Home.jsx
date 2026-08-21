@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Hero from '../components/Hero';
 import FilterPanel from '../components/FilterPanel';
 import SortDropdown from '../components/SortDropdown';
@@ -13,6 +14,7 @@ import { RefreshCw, AlertTriangle } from 'lucide-react';
  * Orchestrates Search, Filtering, Sorting and grid listing views.
  */
 export const Home = () => {
+  const location = useLocation();
   const {
     filteredProperties,
     loading,
@@ -25,6 +27,23 @@ export const Home = () => {
     clearFilters,
     refetch,
   } = useProperties();
+
+  useEffect(() => {
+    const type = new URLSearchParams(location.search).get('type');
+
+    if (!type) {
+      return undefined;
+    }
+
+    const frameId = window.requestAnimationFrame(() => {
+      document.getElementById('available-properties')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    });
+
+    return () => window.cancelAnimationFrame(frameId);
+  }, [location.search]);
 
   const handleSearchChange = (value) => {
     setFilter('search', value);
@@ -57,7 +76,7 @@ export const Home = () => {
           {/* Results Summary and Sorting */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-primary-100 pb-4">
             <div>
-              <h2 className="text-lg md:text-xl font-extrabold text-primary-950">
+              <h2 id="available-properties" className="scroll-mt-24 text-lg md:text-xl font-extrabold text-primary-950">
                 {loading ? 'Finding properties...' : 'Available Properties'}
               </h2>
               {!loading && !error && (

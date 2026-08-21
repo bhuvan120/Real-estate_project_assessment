@@ -88,19 +88,19 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Luxury Apartments</Link>
+                <Link to="/?type=Apartment" className="text-primary-400 hover:text-white transition-colors">Luxury Apartments</Link>
               </li>
               <li>
-                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Premium Villas</Link>
+                <Link to="/?type=Villa" className="text-primary-400 hover:text-white transition-colors">Premium Villas</Link>
               </li>
               <li>
-                <Link to="/" className="text-primary-400 hover:text-white transition-colors" >Independent Houses</Link>
+                <Link to="/?type=Independent%20House" className="text-primary-400 hover:text-white transition-colors">Independent Houses</Link>
               </li>
               <li>
-                <Link to="/" className="text-primary-400 hover:text-white transition-colors">Commercial Offices</Link>
+                <Link to="/?type=Commercial" className="text-primary-400 hover:text-white transition-colors">Commercial Offices</Link>
               </li>
               <li>
-                <Link to="/" className="text-primary-400 hover:text-white transition-colors" >List Your Property</Link>
+                <Link to="/signup" className="text-primary-400 hover:text-white transition-colors">List Your Property</Link>
               </li>
             </ul>
           </div>

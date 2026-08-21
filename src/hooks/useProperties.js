@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useLocation } from 'react-router-dom';
 import { propertyService } from '../services/propertyService';
 
 const DEFAULT_FILTERS = {
@@ -15,10 +16,18 @@ const DEFAULT_SORT = 'recommended';
  * Custom hook to load, search, filter, and sort properties.
  */
 export const useProperties = () => {
+  const location = useLocation();
   const [properties, setProperties] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [filters, setFilters] = useState(DEFAULT_FILTERS);
+  const [filters, setFilters] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get('type');
+
+    return type
+      ? { ...DEFAULT_FILTERS, type }
+      : DEFAULT_FILTERS;
+  });
   const [sortBy, setSortBy] = useState(DEFAULT_SORT);
   const [retryCount, setRetryCount] = useState(0);
 
@@ -69,6 +78,16 @@ export const useProperties = () => {
     setFilters(DEFAULT_FILTERS);
     setSortBy(DEFAULT_SORT);
   }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const type = params.get('type');
+
+    setFilters({
+      ...DEFAULT_FILTERS,
+      type: type || 'All',
+    });
+  }, [location.search]);
 
   // Dynamically extract unique cities from data
   const cities = useMemo(() => {
