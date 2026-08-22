@@ -10,7 +10,7 @@ import './index.css';
  */
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Real-estate_project_assessment">
       <App />
     </BrowserRouter>
   </React.StrictMode>
