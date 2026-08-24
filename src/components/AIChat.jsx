@@ -325,41 +325,31 @@ function findBestMatches(input, properties) {
         property.score >= highestScore - 2
     );
 
-  /* -------------------------------------------------------
-     SHUFFLE SIMILAR MATCHES
-
-     Prevents exactly the same 3 properties from being
-     returned every time.
-  ------------------------------------------------------- */
-
-  const shuffled =
-    [...strongMatches].sort(
-      () => Math.random() - 0.5
-    );
+  const selectedMatches = [...strongMatches];
 
   /* -------------------------------------------------------
      IF NOT ENOUGH STRONG MATCHES, ADD NEXT BEST
   ------------------------------------------------------- */
 
-  if (shuffled.length < 3) {
+  if (selectedMatches.length < 3) {
     const remaining =
       scoredProperties.filter(
         (property) =>
-          !shuffled.some(
+          !selectedMatches.some(
             (selected) =>
               selected.id === property.id
           )
       );
 
-    shuffled.push(
+    selectedMatches.push(
       ...remaining.slice(
         0,
-        3 - shuffled.length
+        3 - selectedMatches.length
       )
     );
   }
 
-  return shuffled.slice(0, 3);
+  return selectedMatches.slice(0, 3);
 }
 
 /* =========================================================
@@ -529,7 +519,6 @@ Description: ${
       .join('\n\n');
 
   const systemPrompt = `
-```text
 You are Realistae AI, a professional, friendly, and concise real-estate assistant.
 
 Your goal is to help users quickly discover suitable properties and guide them through their property search.
@@ -677,7 +666,9 @@ Helpful
 Natural
 
 Always behave like a professional real-estate advisor, not a property database.
-```
+
+AVAILABLE PROPERTY LISTINGS:
+${propertyList}
 
 `;
 
